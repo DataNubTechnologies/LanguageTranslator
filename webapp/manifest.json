@@ -17,6 +17,20 @@
           "odataVersion": "2.0"
         }
       }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "Translation-translate": {
+          "semanticObject": "Translation",
+          "action": "translate",
+          "title": "{{Translation-translate.flpTitle}}",
+          "subTitle": "{{Translation-translate.flpSubtitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
     }
   },
   "sap.ui": {
